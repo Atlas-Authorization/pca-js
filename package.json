@@ -1,0 +1,20 @@
+{
+  "name": "pca-js",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Proof-Carrying Authority (PCA), TypeScript implementation: the @atlasauth/pca core verifier plus its framework adapters, crypto rungs, protocol bridges, and agent-framework integrations.",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck"
+  }
+}
